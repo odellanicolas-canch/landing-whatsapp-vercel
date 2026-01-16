@@ -1,44 +1,26 @@
-* {
-  box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
 body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: radial-gradient(circle, #ffd800, #ff8c00);
   margin: 0;
   min-height: 100vh;
-  background: radial-gradient(circle, #ffd800, #ff8c00);
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
 }
 
 .container {
-  background: white;
+  background: #fff;
   padding: 30px;
   max-width: 420px;
   width: 90%;
   border-radius: 14px;
   text-align: center;
-  box-shadow: 0 10px 25px rgba(0,0,0,.2);
+  box-shadow: 0 10px 25px rgba(0,0,0,.25);
 }
 
 h1 {
   margin-top: 0;
   color: #1f7a3f;
-}
-
-.subtitle {
-  margin-bottom: 20px;
-}
-
-.benefits {
-  list-style: none;
-  padding: 0;
-  margin-bottom: 25px;
-}
-
-.benefits li {
-  margin: 8px 0;
 }
 
 button {
@@ -61,3 +43,4 @@ button:hover {
   color: #666;
   margin-top: 20px;
 }
+
