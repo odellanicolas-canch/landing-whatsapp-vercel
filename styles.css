@@ -172,4 +172,27 @@ button {
     box-shadow: 0 0 14px rgba(0,255,136,0.35);
   }
 }
+.hero-image {
+  width: 160px;
+  max-width: 70%;
+  margin: 12px auto 18px;
+  display: block;
+
+  border-radius: 18px;
+  box-shadow: 0 0 35px rgba(0,255,150,.35);
+
+  animation: float 3.5s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-6px); }
+  100% { transform: translateY(0); }
+}
+
+@media (max-width: 480px) {
+  .hero-image {
+    width: 140px;
+  }
+}
 
