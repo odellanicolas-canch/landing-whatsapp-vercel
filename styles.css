@@ -38,6 +38,7 @@ body {
   text-align: center;
   border: 1px solid rgba(255,215,0,.3);
   box-shadow: 0 35px 80px rgba(0,0,0,.95);
+  overflow: visible;
 }
 
 .ribbon {
@@ -117,6 +118,7 @@ button {
   letter-spacing: 1px;
   box-shadow: 0 0 30px rgba(0,255,136,0.9);
   text-transform: uppercase;
+
 }
 
 button:hover {
@@ -134,3 +136,12 @@ button:hover {
   color: #bbbbbb;
   margin-top: 6px;
 }
+button {
+  display: block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  position: relative;
+  z-index: 10;
+  margin-top: 20px;
+}
+
