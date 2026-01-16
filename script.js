@@ -1,6 +1,6 @@
 // Botón WhatsApp
 document.getElementById("whatsappBtn").addEventListener("click", () => {
-  const phone = "5491158920330"; // TU número real
+  const phone = "5491135725807"; // TU número real
   const text = encodeURIComponent(
     "Hola, quiero activar el bono de bienvenida del casino 🎰"
   );
