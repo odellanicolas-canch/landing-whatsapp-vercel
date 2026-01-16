@@ -67,13 +67,19 @@ h1 {
 }
 
 .bonus {
+  display: block;
+  background: linear-gradient(90deg, rgba(0,255,136,0.15), rgba(0,255,136,0.05));
+  border: 1px solid #00ff88;
+  padding: 14px 16px;
+  margin: 18px 0 24px 0;
+  border-radius: 14px;
   font-size: 17px;
   font-weight: 700;
-  color: #ffffff;
-  margin-bottom: 22px;
-  line-height: 1.2;
+  color: #eafff3;
   text-align: center;
+  box-shadow: 0 0 18px rgba(0,255,136,0.35);
 }
+
 
 
 .bonus .big {
