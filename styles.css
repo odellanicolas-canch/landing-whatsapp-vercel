@@ -30,16 +30,15 @@ body {
 .casino {
   position: relative;
   z-index: 2;
-  background: linear-gradient(180deg, rgba(10,40,20,0.95), rgba(0,0,0,0.95));
+  background: linear-gradient(180deg, #14001d, #000);
   border-radius: 24px;
   padding: 40px 34px;
   max-width: 460px;
   width: 94%;
   text-align: center;
-  border: 2px solid #00ff88;
-  box-shadow: 0 30px 80px rgba(0,255,136,.35);
+  border: 1px solid rgba(255,215,0,.3);
+  box-shadow: 0 35px 80px rgba(0,0,0,.95);
 }
-
 
 .ribbon {
   background: linear-gradient(90deg, #ff005d, #ffcc00);
@@ -53,16 +52,17 @@ body {
 }
 
 h1 {
-  margin: 0;
   font-size: 34px;
-  color: #ffd700;
+  font-weight: 800;
+  color: #00ff88;
+  margin-bottom: 12px;
   letter-spacing: 1px;
 }
 
 .tagline {
-  margin: 14px 0 24px;
-  font-size: 15px;
-  color: #ddd;
+  font-size: 16px;
+  color: #eafff3;
+  margin-bottom: 24px;
 }
 
 .bonus {
@@ -84,13 +84,13 @@ h1 {
 }
 
 .features {
-  text-align: left;
   margin-bottom: 24px;
-  font-size: 15px;
 }
 
 .features div {
+  font-size: 15px;
   margin: 10px 0;
+  color: #ffffff;
 }
 
 .countdown {
@@ -101,34 +101,35 @@ h1 {
 
 #timer {
   font-weight: bold;
+}
+
 button {
   width: 100%;
   background: linear-gradient(90deg, #00ff88, #00cc66);
   color: #002010;
   border: none;
-  padding: 20px;
-  font-size: 18px;
+  padding: 22px;
+  font-size: 19px;
   border-radius: 18px;
   cursor: pointer;
-  font-weight: bold;
-  letter-spacing: .5px;
-  box-shadow: 0 0 25px rgba(0,255,136,.9);
+  font-weight: 900;
+  letter-spacing: 1px;
+  box-shadow: 0 0 30px rgba(0,255,136,0.9);
+  text-transform: uppercase;
 }
 
 button:hover {
-  transform: scale(1.06);
+  transform: scale(1.07);
 }
 
-
-
 .warning {
-  margin-top: 18px;
   font-size: 12px;
-  color: #ff6666;
+  color: #ff8080;
+  margin-top: 16px;
 }
 
 .legal {
-  margin-top: 10px;
   font-size: 11px;
-  color: #aaa;
+  color: #bbbbbb;
+  margin-top: 6px;
 }
