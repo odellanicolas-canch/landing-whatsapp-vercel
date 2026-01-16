@@ -196,4 +196,20 @@ button {
     width: 140px;
   }
 }
+@media (max-width: 768px) {
+  .hero-image {
+    width: 260px;
+    max-width: 90%;
+    margin-bottom: 10px;
+    filter: drop-shadow(0 0 25px rgba(0,255,150,.6));
+  }
+}
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2.1rem;
+    line-height: 1.1;
+    text-shadow: 0 0 30px rgba(0,255,150,.7);
+  }
+}
+
 
