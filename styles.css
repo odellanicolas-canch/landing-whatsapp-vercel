@@ -58,6 +58,7 @@ h1 {
   color: #00ff88;
   margin-bottom: 12px;
   letter-spacing: 1px;
+  text-shadow: 0 0 25px rgba(0,255,150,.6);
 }
 
 .tagline {
@@ -173,8 +174,8 @@ button {
   }
 }
 .hero-image {
-  width: 160px;
-  max-width: 70%;
+  width: 190px;
+  max-width: 75%;
   margin: 12px auto 18px;
   display: block;
 
